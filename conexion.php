@@ -2,8 +2,4 @@
 
 $con = new mysqli('localhost','root','','curso');
 
-
-
-
-
  ?>

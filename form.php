@@ -15,9 +15,6 @@
 	<input type="radio" name="operador" value="2">Multiplicación<br>
 	<input type="radio" name="operador" value="3">División<br>
 	<input type="submit" value="Calcular">
-
-	
-
 </form>
 	
 </body>

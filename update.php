@@ -7,21 +7,17 @@ $paterno = $_POST['paterno'];
 $materno = $_POST['materno'];
 
 $update = $con -> query("UPDATE alumnos set nombre='$nombre', paterno='$paterno', materno='$materno' WHERE id='$id'");
-if ($update ) {
+	if ($update ) {
 	# code...
 
-	echo "<script>
+			echo "<script>
 			location.href='formulario.php';
-		
-		</script>";
+			</script>";
 
-}else{
+		}else{
 
-	echo "<script>
+			echo "<script>
 			location.href='actualizar.php?id=".$id."';
-		
-		</script>";
-
-}
-
- ?>
+			</script>";
+	}
+?>

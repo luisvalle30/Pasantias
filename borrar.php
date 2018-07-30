@@ -5,18 +5,17 @@ include 'conexion.php';
 
  $delete= $con -> query("DELETE FROM alumnos WHERE id = '$id'");
  if ($delete) {
- 	# code...
-
+ 	
  	echo "<script>
 	location.href='formulario.php';
 	</script>";
 
- }else{
+ 	}else{
 
- 	echo "<script>
- 	alert('El registro no se pudo eliminar');
-	location.href='formulario.php';
-	</script>";
+ 		echo "<script>
+ 		alert('El registro no se pudo eliminar');
+		location.href='formulario.php';
+		</script>";
 
  }
 

@@ -1,23 +1,23 @@
 <?php
 
-//$frutas=array('peras', 'manzanas', 'nepes', 'uvas');
+//$frutas=array('peras', 'manzanas', 'fresas', 'uvas');
 
 
 
 /*
-if ($frutas[1]=='nepes') {
+if ($frutas[1]=='fresas') {
 	# code...
-	echo "exito prro";
+	echo "exito";
 }else{
 
-	echo "Nel prro";
+	echo "No son fresas";
 }
 */
 
 $frutas2= array('clave1' => 'peras', 'clave 2'=>'manzanas');
 
 $frutas=array('peras', 'manzanas', 
-	'pn' => 'nepes', 'uvas');
+	'pn' => 'fresas', 'uvas');
 
 echo $frutas['pn'];
 

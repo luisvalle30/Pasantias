@@ -10,7 +10,7 @@
 /*$i=0;
 while ($i <= 10) {
 	# code...
-	echo "hola prro".$i."<br>";
+	echo "hola ".$i."<br>";
 	$i=$i+1;
 }*/
 
@@ -36,10 +36,10 @@ echo date('t');*/
 //if ($bar == 1 Xor $ber==2) {
 	# code...
 
-//	echo "bien prro";
+//	echo "bien ";
 //}else{
 
-//	echo "nel prro";
+//	echo "No";
 //}
 
 
@@ -52,7 +52,7 @@ echo pow($val1, $val2);
 */
 
 
-/*$cadena='HOLA PRRROS';
+/*$cadena='HOLA AMIGOS';
 
 echo strlen($cadena);
 
@@ -78,7 +78,7 @@ echo substr($cadena, 5,5);
 function fun(){
 
 
-echo "saludos prros";
+echo "saludos amigos";
 return;
 
 }
